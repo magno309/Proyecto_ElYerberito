@@ -1,3 +1,4 @@
+%Plantas%
 planta_medicinal(agar-agar).
 planta_medicinal(brionia).
 planta_medicinal(helecho_macho).
@@ -192,6 +193,7 @@ planta_medicinal(zarzamora).
 planta_medicinal(zarzaparrilla).
 planta_medicinal(zoapatle).
 
+%Malestares%
 malestar(abscesos).
 malestar(absceso_hepatico).
 malestar(acidez_estomacal).
@@ -340,6 +342,7 @@ malestar(vomitos).
 malestar(voz).
 malestar(falta_de_vitaminas).
 
+%La planta X se usa para tratar el malestar Y%
 tratamiento(malva,abscesos).
 tratamiento(zarzaparrilla,absceso_hepatico).
 tratamiento(anis,acidez_estomacal).
@@ -890,3 +893,70 @@ tratamiento(cebolla,falta_de_vitaminas).
 tratamiento(limon,falta_de_vitaminas).
 tratamiento(zanahoria,falta_de_vitaminas).
 tratamiento(aceite_de_bacalao,falta_de_vitaminas).
+
+%El medicamento X proviene de la planta Y%
+medicamento(morfina,opio).
+medicamento(codeína,opio).
+medicamento(digitalina,digital).
+medicamento(tónico_cardiaco,digital).
+medicamento(emetina,ipeca).
+medicamento(estricnina,nuez_vómica).
+medicamento(veratrina,eléboro_blanco).
+medicamento(colquicina,colchico).
+medicamento(atropina,belladona).
+medicamento(quinina,quina).
+medicamento(teobromina,cacao).
+medicamento(esparteína,retama).
+medicamento(cocaína,coca).
+medicamento(mescalina,peyote).
+medicamento(efedrina,efedra).
+medicamento(hormonas,barbasco).
+medicamento(letenurina,nenúfar_amarillo).
+medicamento(diosponina,ñame).
+medicamento(tauremisina,artemisa).
+medicamento(olitorisida,semilla_de_yute).
+medicamento(ácido_lisérgico,toloache).
+medicamento(eucaliptol,eucalipto).
+medicamento(vitamina_c,rosal).
+medicamento(quercitrina,rosal).
+
+%El concepto X significa Y%
+concepto(afrodisiaca,que_excita_el_apetito_sexual).
+concepto(analgésica,que_quita_o_modera_el_dolor).
+concepto(anestésica,que_insensibiliza_el_cuerpo).
+concepto(antidiarreica,que_controla_diarreas_o_deposiciones).
+concepto(antiespasmódica,que_controla_espasmos_nerviosos).
+concepto(antiflogística,que_actúa_contra_las_inflamaciones).
+concepto(antipirética,que_quita_o_disminuye_la_fiebre).
+concepto(antiséptica,que_mata_los_tejidos).
+concepto(aperitiva,que_produce_apetito).
+concepto(astringente,que_hace_contraer_los_tejidos).
+concepto(carminativa,que_evita_la_formación_de_gases_o_provoca_su_expulsión).
+concepto(colagoga,que_ayuda_a_expulsar_la_bilis).
+concepto(depurativa,que_limpia_y_purifica_la_sangre).
+concepto(diaforética,que_provoca_sudar_como_cochino).
+concepto(digestiva,que_favorece_la_digestión).
+concepto(diurética,que_provoca_la_orina).
+concepto(emética,que_provoca_náuseas_y_vómitos).
+concepto(emenagoga,que_activa_la_menstruación).
+concepto(estupefaciente,que_aquieta_duerme_o_atonta).
+concepto(expectorante,que_expulsa_flemas_y_mucosidades).
+concepto(hemostática,que_corta_o_detiene_hemorragias).
+concepto(hepática,que_ayuda_al_hígado).
+concepto(iatrogenia,enfermedad_provocada_por_las_medicinas).
+concepto(laxante,que_purga_sin_provocar_diarrea).
+concepto(pectoral,que_ayuda_al_pecho).
+concepto(sedante,que_calma_dolores_intestinales).
+concepto(tónica,que_da_fuerza_al_organismo).
+concepto(tóxica,que_es_venenosa).
+concepto(vermífuga,que_expulsa_gusanos_intestinales).
+concepto(vulneraria,que_cura_llagas_y_heridas).
+
+%Las plantas se pueden consumir de X forma%
+consumo(cocimiento).
+consumo(infusión).
+consumo(maceración).
+consumo(jarabe).
+consumo(tintura).
+consumo(jugo).
+consumo(horchata).
