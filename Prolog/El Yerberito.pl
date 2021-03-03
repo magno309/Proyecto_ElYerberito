@@ -193,6 +193,8 @@ planta_medicinal(zarzamora).
 planta_medicinal(zarzaparrilla).
 planta_medicinal(zoapatle).
 
+planta_medicinal(mangle).
+
 %Malestares%
 malestar(abscesos).
 malestar(absceso_hepatico).
@@ -894,6 +896,9 @@ tratamiento(limon,falta_de_vitaminas).
 tratamiento(zanahoria,falta_de_vitaminas).
 tratamiento(aceite_de_bacalao,falta_de_vitaminas).
 
+tratamiento(mangle, estreñimiento).
+tratamiento(mangle, vias_biliares).
+
 %El medicamento X proviene de la planta Y%
 medicamento(morfina,opio).
 medicamento(codeína,opio).
@@ -960,3 +965,9 @@ consumo(jarabe).
 consumo(tintura).
 consumo(jugo).
 consumo(horchata).
+
+%Nombre en latin de la planta X%
+nombre_latin(rhizophora_mangle, mangle).
+nombre_latin(matricaria_chamomilla, manzanilla).
+nombre_latin(marrubium_vulgare, marrubio).
+
